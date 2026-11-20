@@ -1,0 +1,9 @@
+{
+  "name": "resume-harness",
+  "private": true,
+  "scripts": {
+    "test": "node --test scripts/render.test.mjs",
+    "render": "node --env-file=.env scripts/render.mjs",
+    "render:sysenv": "node scripts/render.mjs"
+  }
+}

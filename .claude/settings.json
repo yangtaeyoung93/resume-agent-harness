@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.local)",
+      "Read(./output/**)",
+      "Bash(npm run render*)",
+      "Bash(node *render.mjs*)",
+      "PowerShell(npm run render*)",
+      "PowerShell(node *render.mjs*)"
+    ]
+  }
+}
